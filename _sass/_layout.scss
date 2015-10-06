@@ -1,0 +1,86 @@
+html, body {
+  // Prevent bounce scroll in IOS
+  height: 100%;
+  @media (max-width: 990px) {
+    height: auto;
+    overflow: auto;
+  }
+
+  main {
+    height: 100%;
+  }
+}
+
+.main-content {
+  padding-top: 65px;
+}
+
+svg {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Exo 2";
+  line-height: 1.45;
+  font-weight: 900;
+  color: $black;
+  clear: both;
+}
+
+main {
+  float: right;
+  width: 65%;
+  padding-left: 40px;
+
+  @media (max-width: 990px) {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+}
+
+aside {
+  width: 35%;
+  height: 100%;
+  color: $white;
+  float: left;
+  position: relative;
+  @media (max-width: 990px) {
+    width: 100%;
+    float: none;
+  }
+}
+
+.site-header {
+  @media (max-width: 990px) {
+    padding-left: 30px;
+  }
+}
+
+.aside-header {
+  color: $black;
+  img {
+    border-top-right-radius: 90px;
+  }
+}
+
+.secondary-content {
+  height: 100%;
+  background: $black;
+  padding: 20px;
+  border-radius: 0px 3px 3px 0px;
+  box-shadow: 1px 1px 15px 3px rgba(34,34,34,0.5);
+  @media (max-width: 990px) {
+
+  }
+}
+
+.skills {
+  margin-bottom: 10px;
+  text-align: center;
+}

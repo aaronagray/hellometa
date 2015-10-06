@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Laila:700,400);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+@import 'reset';
+@import 'colors';
+@import 'layout';
+@import '_fonts/devicons';
+@import 'type';
+@import 'icons';
+@import 'post';
+@import 'form';
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $blue;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}

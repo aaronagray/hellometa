@@ -1,0 +1,34 @@
+
+.devicons {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+
+  @media (max-width: 420px) {
+    font-size: 1.5rem;
+  }
+
+  &.devicons-javascript_badge:hover {
+    color: $yellow;
+  }
+  &.devicons-ruby:hover {
+    color: #CC342D;
+  }
+  &.devicons-ember:hover {
+    color: #fe845a;
+  }
+  &.devicons-nodejs_small:hover {
+    color: #80bd01;
+  }
+  &.devicons-mongodb:hover {
+    color: #6ba442;
+  }
+  &.devicons-ruby_on_rails:hover {
+    color: #981a21;
+  }
+  &.devicons-sass:hover {
+    color: #c69;
+  }
+  &.devicons-html5:hover {
+    color: #ed4732;
+  }
+}

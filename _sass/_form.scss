@@ -1,0 +1,16 @@
+button, input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+button {
+  background: $green;
+  width: 50%;
+}

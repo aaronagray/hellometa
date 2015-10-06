@@ -1,0 +1,42 @@
+.post {
+  background: $black;
+  color: $white;
+  padding: 10px;
+  margin-bottom: 20px;
+  padding: 20px 20px 10px 30px;
+  box-shadow: 1px 1px 15px 3px rgba($black,0.5);
+  border-radius: 3px 0px 0px 3px;
+  @media (max-width: 990px) {
+    border-radius: 0;
+  }
+}
+
+.post-meta {
+  color: $red;
+  margin-bottom: 0;
+}
+
+.post-link {
+  color: $yellow;
+  font-size: 2rem;
+}
+
+.cat-button {
+  background: $white;
+  color: $black;
+  padding: 5px;
+  float: right;
+  margin-left: 20px;
+}
+
+.image-left {
+  float: left;
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.image-right {
+  float: right;
+  max-width: 50%;
+  margin-left: 20px;
+}

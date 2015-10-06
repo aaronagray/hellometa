@@ -1,0 +1,60 @@
+html {font-size: 1em;}
+
+p {
+  font-family: Open Sans;
+  font-weight: 300;
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+
+  a {
+    color: $white;
+  }
+}
+h1 {
+  margin-top: 0;
+  font-size: 1.602em;
+}
+h2 {font-size: 1.424em;}
+h3 {font-size: 1.266em;}
+h4 {font-size: 1.125em;}
+
+small, .font_small {font-size: 0.889em;}
+
+.hero {
+  text-align: center;
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.post-title {
+  margin-top: 0;
+  color: $yellow;
+}
+
+.post-content {
+  h2, h3, h4 {
+    &:nth-of-type(even) {
+      color: $red;
+    }
+    &:nth-of-type(odd) {
+      color: $green;
+    }
+  }
+}
+
+.post .post-title {
+  font-size: 2.5rem;
+}
+
+.site-title {
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0;
+}

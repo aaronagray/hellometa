@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <section class="post-list">
+    {% for post in site.posts %}
+      <article class="post">
+        <p class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+          {% for cat in post.categories %}
+            <span class="cat-button">
+              {{cat}}
+            </span>
+          {% endfor %}
+        </p>
+        <h2 class="post-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        <p>
+          {{ post.short }}
+        </p>
+      </article>
+    {% endfor %}
+  </section>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>
