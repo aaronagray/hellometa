@@ -10,7 +10,6 @@ These developers are changing the world.
 
 Largely influence by [the internet's own boy](https://www.youtube.com/watch?v=vXr-2hwTk58), Aaron Swartz, Creative Commons is devoted to expanding the range of creative works available for others to build upon legally and to share.
 
-
 ## Khan Academy
 
 ## Atomattic
