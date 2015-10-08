@@ -1,2 +1,0 @@
-
-success = preparedness + opportunity + action
